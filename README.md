@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import setProps from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-meta-data-props@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/strided-base-meta-data-props/tags). For example,
+
+```javascript
 import setProps from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-meta-data-props@v0.1.0-esm/index.mjs';
 ```
 
@@ -143,7 +148,7 @@ var nargs = obj.nargs;
 <body>
 <script type="module">
 
-import setProps from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-meta-data-props@v0.1.0-esm/index.mjs';
+import setProps from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-meta-data-props@esm/index.mjs';
 
 // Define strided array function meta data:
 var meta = {
