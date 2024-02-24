@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import setProps from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-meta-data-props@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/strided-base-meta-data-props/tags). For example,
+
+```javascript
 import setProps from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-meta-data-props@v0.2.1-deno/mod.js';
 ```
 
@@ -138,7 +143,7 @@ var nargs = obj.nargs;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import setProps from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-meta-data-props@v0.2.1-deno/mod.js';
+import setProps from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-meta-data-props@deno/mod.js';
 
 // Define strided array function meta data:
 var meta = {
