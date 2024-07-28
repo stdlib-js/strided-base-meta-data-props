@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import setProps from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-meta-data-props@deno/mod.js';
+import setProps from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-meta-data-props@v0.2.2-deno/mod.js';
 ```
 
 #### setProps( meta, dtypes, obj, bool )
@@ -138,7 +138,7 @@ var nargs = obj.nargs;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import setProps from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-meta-data-props@deno/mod.js';
+import setProps from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-meta-data-props@v0.2.2-deno/mod.js';
 
 // Define strided array function meta data:
 var meta = {
